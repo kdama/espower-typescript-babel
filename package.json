@@ -22,7 +22,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "mocha --compilers ts:guess test/**/*.js"
+    "test": "mocha --require './guess' test/**/*-test.ts"
   },
   "author": "Teppei Sato <teppeis@gmail.com>",
   "license": "MIT",
