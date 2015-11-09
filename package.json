@@ -1,6 +1,6 @@
 {
-  "name": "espower-babel",
-  "description": "power-assert instrumentor for babel",
+  "name": "espower-typescript-babel",
+  "description": "power-assert instrumentor for typescript & babel",
   "keywords": [
     "babel",
     "power-assert",
@@ -9,11 +9,11 @@
     "test",
     "testing"
   ],
-  "version": "3.3.0",
-  "homepage": "https://github.com/power-assert-js/espower-babel/",
+  "version": "0.0.1",
+  "homepage": "https://github.com/teppeis/espower-typescript-babel/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/power-assert-js/espower-babel.git"
+    "url": "https://github.com/teppeis/espower-typescript-babel.git"
   },
   "main": "index.js",
   "files": [
@@ -22,15 +22,12 @@
     "lib"
   ],
   "scripts": {
-    "test": "mocha --require './guess' test/**/*.js && mocha --require './test_loader/espower-traceur-loader' test/**/*.js && mocha test/issues/17 --compilers es6:./guess"
+    "test": "mocha --compilers ts:guess test/**/*.js"
   },
-  "directories": {
-    "test": "test/"
-  },
-  "author": "azu",
+  "author": "Teppei Sato <teppeis@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/power-assert-js/espower-babel/issues"
+    "url": "https://github.com/teppeis/espower-typescript-babel/issues"
   },
   "dependencies": {
     "babel-core": "^5.0",
