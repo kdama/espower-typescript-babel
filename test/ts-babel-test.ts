@@ -1,13 +1,13 @@
-import 'babel-polyfill';
+import 'babel-polyfill'; // for regenerator
 import assert from 'power-assert';
 
-describe(`hoge`, () => {
-    it(`huga`, () => {
+describe(`error sample`, () => {
+    it(`should error 1`, () => {
         var a: string;
         assert(1 === (() => {}));
     });
 
-    it(`huga`, async () => {
+    it(`should error 2`, async () => {
         let res = await new Promise((resolve) => {
             setTimeout(() => {
                 resolve(2);
