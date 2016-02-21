@@ -15,12 +15,14 @@ power-assert instrumentor for TypeScript and Babel
 
 ## Usage
 
-Put tsconfig.json (target: ES6) in your project root and
+Put `tsconfig.json` (target: ES6) and `.babelrc` in your project root, then
 
 ```bash
 $ npm i -D espower-typescript-babel
 $ mocha --compilers ts:espower-typescript-babel/guess test/**/*.ts
 ```
+
+Also you need to `npm i -D babel-preset-es2015`, if you use babel presets like `babel-preset-es2015` in `.babelrc`.
 
 ## License
 
