@@ -1,4 +1,4 @@
-# espower-typescript-babel (experimental)
+# espower-typescript-babel (experimental)  [![NPM version][npm-image]][npm-url] [![Dependency Status][deps-image]][deps-url]
 
 power-assert instrumentor for TypeScript and Babel
 
@@ -18,6 +18,17 @@ power-assert instrumentor for TypeScript and Babel
 Put tsconfig.json (target: ES6) in your project root and
 
 ```bash
-$ npm i teppeis/espower-typescript-babel
+$ npm i -D espower-typescript-babel
 $ mocha --compilers ts:espower-typescript-babel/guess test/**/*.ts
 ```
+
+## License
+
+MIT License: Teppei Sato &lt;teppeis@gmail.com&gt;
+
+[npm-image]: https://img.shields.io/npm/v/espower-typescript-babel.svg
+[npm-url]: https://npmjs.org/package/espower-typescript-babel
+[travis-image]: https://travis-ci.org/teppeis/espower-typescript-babel.svg?branch=master
+[travis-url]: https://travis-ci.org/teppeis/espower-typescript-babel
+[deps-image]: https://david-dm.org/teppeis/espower-typescript-babel.svg
+[deps-url]: https://david-dm.org/teppeis/espower-typescript-babel
