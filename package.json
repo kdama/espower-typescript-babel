@@ -34,7 +34,7 @@
     "babel-plugin-espower": "^1.0.0",
     "minimatch": "^2.0.10",
     "source-map-support": "^0.2.10",
-    "typescript": "^1.8.0-dev.20151109",
+    "typescript": "^1.8.0",
     "typescript-simple": "^3.0.2",
     "xtend": "^4.0.0"
   },

@@ -35,7 +35,7 @@ if (packageData &&
 
 babelrc = resolveBabelrc(process.cwd(), {});
 
-var tsconfigPath = ts.findConfigFile(process.cwd());
+var tsconfigPath = ts.findConfigFile(process.cwd(), fs.existsSync);
 var tsconfigBasepath = null;
 var compilerOptions = null;
 if (tsconfigPath) {
