@@ -1,5 +1,5 @@
-import 'babel-polyfill'; // for regenerator
-import assert from 'power-assert';
+require('babel-polyfill'); // for regenerator
+import assert = require('power-assert');
 
 describe(`error sample`, () => {
     it(`should error 1`, () => {
